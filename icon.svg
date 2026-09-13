@@ -1,0 +1,33 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#241f3e"/>
+      <stop offset="100%" stop-color="#14121f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="46%" r="50%">
+      <stop offset="0%" stop-color="#e8a854" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#e8a854" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background squircle -->
+  <rect width="200" height="200" rx="44" fill="url(#bg)"/>
+
+  <!-- soft ambient glow -->
+  <circle cx="100" cy="103" r="72" fill="url(#glow)"/>
+
+  <!-- ears -->
+  <circle cx="62.2" cy="74.2" r="16.2" fill="#e8a854"/>
+  <circle cx="137.8" cy="74.2" r="16.2" fill="#e8a854"/>
+
+  <!-- head -->
+  <circle cx="100" cy="112" r="54" fill="#e8a854"/>
+
+  <!-- eyes -->
+  <circle cx="78.4" cy="106.6" r="4.6" fill="#1c1406"/>
+  <circle cx="121.6" cy="106.6" r="4.6" fill="#1c1406"/>
+
+  <!-- snout -->
+  <ellipse cx="100" cy="129.3" rx="21.6" ry="13" fill="#f2efe9" opacity="0.92"/>
+  <circle cx="100" cy="127.1" r="5.4" fill="#1c1406"/>
+</svg>
